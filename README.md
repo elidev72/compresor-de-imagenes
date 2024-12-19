@@ -1,1 +1,1 @@
-# compresor-de-imagenes
+# image-compressor

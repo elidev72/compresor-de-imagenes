@@ -2,10 +2,9 @@ import os
 from PIL import Image
 from dotenv import load_dotenv
 
-
 if __name__ == '__main__':
     load_dotenv()
     
-    downloadFolder: str = os.getenv('DOWNLOAD_FOLDER')
+    originFolder: str | None = os.getenv('ORIGIN_FOLDER')
     
-    print(downloadFolder)
+    print(originFolder)
